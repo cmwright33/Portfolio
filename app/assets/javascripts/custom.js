@@ -63,17 +63,17 @@
 
 
 
-        $("#my-title").on('click', function() {
-            // do fading 3 times
-            for(i=0;i<3;i++) {
-               $('#me').fadeTo('slow', 0.25).fadeTo('slow', 1.0);
-                 $('#me').removeAttr('style');
-               $('#me').attr("style", "background-image: url(images/me.jpg); display: block;");
-                 $('#me').removeAttr('style');
-               $('#me').attr("style", "background-image: url(images/44l.png); display: block;");
-            }
+        // $("#my-title").on('click', function() {
+        //     // do fading 3 times
+        //     for(i=0;i<3;i++) {
+        //        $('#me').fadeTo('slow', 0.25).fadeTo('slow', 1.0);
+        //          $('#me').removeAttr('style');
+        //        $('#me').attr("style", "background-image: url(me.jpg); display: block;");
+        //          $('#me').removeAttr('style');
+        //        $('#me').attr("style", "background-image: url(44l.png); display: block;");
+        //     }
 
-          });
+        //   });
 
           // click on needs to be changed
           //sort and highlight the projects
@@ -171,15 +171,11 @@
         });
 
 
-        $("#me").mouseover(function(){
-            $(this).toggleClass("hover");
-            $('#me').removeAttr('style');
-            $('#me').attr("style", "background-image: url(images/me.jpg); display: block;");
+        $("#myspot").mouseover(function(){
+            $(this).removeClass('me').addClass('me2');
              $('#background-text-6').show();
         }).mouseout(function(){
-            $(this).toggleClass("hover");
-            $('#me').removeAttr('style');
-            $('#me').attr("style", "background-image: url(images/44l.png); display: block;");
+           $(this).removeClass('me2').addClass('me');
              $('#background-text-6').hide();
         });
 
@@ -235,10 +231,10 @@
             'opacity': 0.4,
             'background-color': '#47454b',
             width: function( index, value ) {
-              return parseFloat( value ) * 1.25;
+              return parseFloat( value ) * 1.05;
             },
             height: function( index, value ) {
-              return parseFloat( value ) * 1.25;
+              return parseFloat( value ) * 1.05;
             },
       });
     }
@@ -261,10 +257,10 @@
      $(divName).css({
             'opacity': 0.4,
             width: function( index, value ) {
-              return parseFloat( value ) * 1.25;
+              return parseFloat( value ) * 1.05;
             },
             height: function( index, value ) {
-              return parseFloat( value ) * 1.25;
+              return parseFloat( value ) * 1.05;
             }
       });
     }
