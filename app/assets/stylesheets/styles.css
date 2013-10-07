@@ -160,7 +160,7 @@ body {
 	zoom:1;}
 
 #resume{background-size: 100%;
-	background-image:url(18l.png);
+	background-image:url(https://s3.amazonaws.com/cmw33-portfolio/images/18L.png);
 	width:150px;
 	height:86px;
 	background-color: #ccc;
@@ -177,7 +177,7 @@ body {
 	zoom:1;}
 
 #contact{background-size: 100%;
-	background-image:url(1l.png);
+	background-image:url(https://s3.amazonaws.com/cmw33-portfolio/images/1L.png);
 	width:150px;
 	height:86px;
 	background-color: #ccc;
@@ -514,7 +514,7 @@ a:hover {
 
 #close {
     position:absolute;
-    background:url(close.png);
+    background:url(close.png) ;
     width:24px;
     height:27px;
     display:block;
