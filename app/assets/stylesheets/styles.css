@@ -10,7 +10,7 @@ body {
 
 #contact-me-linkdin{
 	background-size: 100%;
-	background-image:url(likedin-512.png);
+	background-image:url(https://s3.amazonaws.com/cmw33-portfolio/images/Likedin-512.png);
 	width:150px;
 	height:86px;
 	background-color: #ccc;
@@ -28,7 +28,7 @@ body {
 }
 
 #project-2{background-size: 100%;
-	background-image:url(21l.png);
+	background-image:url(https://s3.amazonaws.com/cmw33-portfolio/images/21L.png);
 	width:150px;
 	height:86px;
 	background-color: #ccc;
@@ -45,7 +45,7 @@ body {
 	zoom:1;}
 
 #empty-space-1{background-size: 100%;
-	background-image:url(26l.png);
+	background-image:url(https://s3.amazonaws.com/cmw33-portfolio/images/26L.png);
 	width:150px;
 	height:86px;
 	background-color: #ccc;
@@ -62,7 +62,7 @@ body {
 	zoom:1;}
 
 #contact-me-github{background-size: 100%;
-	background-image:url(github-512.png);
+	background-image:url(https://s3.amazonaws.com/cmw33-portfolio/images/github-512.png);
 	width:150px;
 	height:86px;
 	background-color: #ccc;
@@ -81,7 +81,7 @@ body {
 #empty-space-2{
 	background-size: 100%;
 	margin-left: 86px;
-	background-image:url(26l.png);
+	background-image:url(https://s3.amazonaws.com/cmw33-portfolio/images/26L.png);
 	width:150px;
 	height:86px;
 	background-color: #ccc;
@@ -99,7 +99,7 @@ body {
 
 .me{
 	background-size: 100%;
-	background-image:url(44l.png);
+	background-image:url(https://s3.amazonaws.com/cmw33-portfolio/images/44L.png);
 	width:150px;
 	height:86px;
 	background-color: #ccc;
@@ -117,7 +117,7 @@ body {
 
 .me2{
 	background-size: 100%;
-	background-image:url(me.jpg);
+	background-image:url(https://s3.amazonaws.com/cmw33-portfolio/images/me.jpg);
 	width:150px;
 	height:86px;
 	background-color: #ccc;
@@ -143,7 +143,7 @@ body {
 
 
 #project-1{background-size: 100%;
-	background-image:url(90l.png);
+	background-image:url(https://s3.amazonaws.com/cmw33-portfolio/images/90L.png);
 	width:150px;
 	height:86px;
 	background-color: #ccc;
@@ -211,7 +211,7 @@ body {
 	zoom:1;}
 
 #project-3{background-size: 100%;
-	background-image:url(74l.png);
+	background-image:url(https://s3.amazonaws.com/cmw33-portfolio/images/74L.png);
 	width:150px;
 	height:86px;
 	background-color: #ccc;
