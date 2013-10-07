@@ -37,10 +37,10 @@ rsz_resume.png: rsz_resume-5d01eb8e8aa070acaa5059bcb474f35d.png
 rsz_resume/index.png: rsz_resume-5d01eb8e8aa070acaa5059bcb474f35d.png
 twitter-512.png: twitter-512-b87ce4f04c976b34189b740a79da18a7.png
 twitter-512/index.png: twitter-512-b87ce4f04c976b34189b740a79da18a7.png
-application.js: application-352198096d90288edec51ab96e2db95f.js
-application/index.js: application-352198096d90288edec51ab96e2db95f.js
-application.css: application-b7cc01a8c55fe223cbbda7a56996d3d8.css
-application/index.css: application-b7cc01a8c55fe223cbbda7a56996d3d8.css
+application.js: application-a53b533819fdae6e140be84c3e1054f2.js
+application/index.js: application-a53b533819fdae6e140be84c3e1054f2.js
+application.css: application-da8dc8cf2cc613a882099badd11b9a0c.css
+application/index.css: application-da8dc8cf2cc613a882099badd11b9a0c.css
 bg3.jpg: bg3-8779046ba302c7851f896bdaded339e6.jpg
 bg3/index.jpg: bg3-8779046ba302c7851f896bdaded339e6.jpg
 bg3.png: bg3-bf3f9e530fed12a2b5cb92d019a1df04.png
