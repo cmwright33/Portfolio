@@ -194,7 +194,7 @@ body {
 	zoom:1;}
 
 #contact-me-twitter{background-size: 100%;
-	background-image:url(twitter-512.png);
+	background-image:url(https://s3.amazonaws.com/cmw33-portfolio/images/twitter-512.png);
 	width:150px;
 	height:86px;
 	background-color: #ccc;
@@ -514,7 +514,9 @@ a:hover {
 
 #close {
     position:absolute;
-    background:url(close.png) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image:url(https://s3.amazonaws.com/cmw33-portfolio/css/close.png) ;
     width:24px;
     height:27px;
     display:block;
