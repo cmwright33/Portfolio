@@ -229,13 +229,7 @@
      $(divName).css({
 
             'opacity': 0.4,
-            'background-color': '#47454b',
-            width: function( index, value ) {
-              return parseFloat( value ) * 1.05;
-            },
-            height: function( index, value ) {
-              return parseFloat( value ) * 1.05;
-            },
+            'background-color': '#47454b'
       });
     }
 
@@ -256,19 +250,10 @@
     function whiteOpacityExpandHex(divName) {
      $(divName).css({
             'opacity': 0.4,
-            width: function( index, value ) {
-              return parseFloat( value ) * 1.05;
-            },
-            height: function( index, value ) {
-              return parseFloat( value ) * 1.05;
-            }
       });
     }
   function normalizeHex(divName) {
      $(divName).css({'opacity': 1.0,
-                    "width": "150px",
-                    "height": "86px",
-                    "border-radius": '0%',
                     });
      //  $(".corner-1").css({
      //        'width': '150px',
